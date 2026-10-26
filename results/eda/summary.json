@@ -1,0 +1,49 @@
+{
+  "rows": 1941,
+  "missing_values": 0,
+  "most_common_genre": "pop",
+  "top_artists": {
+    "Rihanna": 23,
+    "Drake": 23,
+    "Eminem": 21,
+    "Calvin Harris": 20,
+    "Britney Spears": 19
+  },
+  "popularity_mean": 59.63,
+  "popularity_median": 65.0,
+  "mean_duration_sec": 228.6,
+  "long_tracks_since_2000": 85,
+  "popularity_by_year_last10": {
+    "2011": 58.1,
+    "2012": 60.2,
+    "2013": 54.6,
+    "2014": 59.0,
+    "2015": 56.7,
+    "2016": 53.9,
+    "2017": 53.8,
+    "2018": 70.5,
+    "2019": 63.0,
+    "2020": 43.3
+  },
+  "most_danceable_genres": {
+    "hip hop, country": 0.847,
+    "World/Traditional, hip hop": 0.807,
+    "rock, Folk/Acoustic, easy listening": 0.801,
+    "pop, R&B, Dance/Electronic": 0.795,
+    "rock, R&B, Folk/Acoustic, pop": 0.791
+  },
+  "most_acoustic_genres": {
+    "World/Traditional, Folk/Acoustic": 0.841,
+    "pop, easy listening, jazz": 0.686,
+    "rock, classical": 0.612,
+    "World/Traditional, pop": 0.544,
+    "Folk/Acoustic, pop": 0.479
+  },
+  "energy_loudness_corr": 0.652,
+  "tempo_range": [
+    60.0,
+    210.9
+  ],
+  "duplicates_removed": 59,
+  "rows_after_iqr_filter": 1014
+}

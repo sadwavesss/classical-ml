@@ -1,0 +1,28 @@
+{
+  "train_size": 23443,
+  "val_size": 2605,
+  "test_size": 6513,
+  "features": 108,
+  "epochs": 50,
+  "best_epoch": 7,
+  "metrics": {
+    "Majority class": {
+      "accuracy": 0.7592507293106096
+    },
+    "Logistic Regression": {
+      "accuracy": 0.8555197297712268,
+      "f1": 0.6715532286212914,
+      "roc_auc": 0.9029282567425353
+    },
+    "MLP, 50 epochs": {
+      "accuracy": 0.8464609243052357,
+      "f1": 0.6556473829201102,
+      "roc_auc": 0.8949459359072244
+    },
+    "MLP, best val epoch (7)": {
+      "accuracy": 0.8526024873330262,
+      "f1": 0.6652719665271967,
+      "roc_auc": 0.9048348156249355
+    }
+  }
+}

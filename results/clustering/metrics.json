@@ -1,0 +1,22 @@
+{
+  "K-Means (k=2)": {
+    "clusters": 2,
+    "noise_points": 0,
+    "ARI": 0.6592305570949524,
+    "NMI": 0.5403814627831327,
+    "silhouette": 0.3438204221997825
+  },
+  "Agglomerative (Ward, k=2)": {
+    "clusters": 2,
+    "noise_points": 0,
+    "ARI": 0.7547992933947454,
+    "NMI": 0.6476589311113452,
+    "silhouette": 0.3149334429811576
+  },
+  "DBSCAN (eps=3.0)": {
+    "clusters": 1,
+    "noise_points": 148,
+    "ARI": 0.1424592248447162,
+    "NMI": 0.08224193033398346
+  }
+}

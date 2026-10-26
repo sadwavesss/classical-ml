@@ -1,0 +1,6 @@
+model,MAE,RMSE,R2
+Linear,7.8396,10.7029,0.1207
+Polynomial (deg=2) + RidgeCV,8.0506,10.8846,0.0906
+Ridge,7.8389,10.6999,0.1212
+Lasso,7.8314,10.6836,0.1239
+Mean baseline,8.8711,11.4438,-0.0052

@@ -1,0 +1,32 @@
+{
+  "train_size": 1354,
+  "test_size": 339,
+  "features": 71,
+  "metrics": {
+    "Linear": {
+      "MAE": 7.8396,
+      "RMSE": 10.7029,
+      "R2": 0.1207
+    },
+    "Polynomial (deg=2) + RidgeCV": {
+      "MAE": 8.0506,
+      "RMSE": 10.8846,
+      "R2": 0.0906
+    },
+    "Ridge": {
+      "MAE": 7.8389,
+      "RMSE": 10.6999,
+      "R2": 0.1212
+    },
+    "Lasso": {
+      "MAE": 7.8314,
+      "RMSE": 10.6836,
+      "R2": 0.1239
+    },
+    "Mean baseline": {
+      "MAE": 8.8711,
+      "RMSE": 11.4438,
+      "R2": -0.0052
+    }
+  }
+}
