@@ -118,6 +118,15 @@ Data:
   [Kaggle](https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019) and saved as
   `data/spotify_top_hits.csv`.
 
+Datasets are not stored in this repository; `results/` contains only metrics and plots.
+
+- **Breast Cancer Wisconsin (Diagnostic)** &mdash; W. Wolberg, O. Mangasarian, N. Street, W. Street. UCI Machine
+  Learning Repository, 1993. https://doi.org/10.24432/C5DW2B (CC BY 4.0)
+- **Adult** &mdash; B. Becker, R. Kohavi. UCI Machine Learning Repository, 1996. https://doi.org/10.24432/C5XW20
+  (CC BY 4.0)
+- **Top Hits Spotify from 2000-2019** &mdash; M. Koverha, Kaggle.
+  https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019
+
 Each script accepts `--out` (and `--data` where a CSV is used), e.g.
 `python -m tabular_ml.tabular_mlp --epochs 20 --out results/mlp_20`.
 
